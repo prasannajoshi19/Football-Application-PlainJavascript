@@ -1,0 +1,163 @@
+{
+  "playerData": [	
+	{
+		"name": "Iker Casillas",
+		"age": 33,
+		"nationality": "Spain",
+		"position": "Goalkeeper",
+		"actualPosition":"Goalkeeper",
+		"pastClub": "-",
+		"form": 7,
+		"imageLink":"./images/casillas.jpeg"
+	},
+	{
+		"name": "Sergio Ramos",
+		"age": 28,
+		"nationality": "Spain",
+		"position": "Defender",
+		"actualPosition":"Center Back, Right Back",
+		"pastClub": "Sevilla",
+		"form": 8,
+		"imageLink":"./images/ramos.jpeg"
+	},
+	{
+		"name": "Alvaro Arbeloa",
+		"age": 32,
+		"nationality": "Spain",
+		"position": "Defender",
+		"actualPosition":"Full Back",
+		"pastClub": "Liverpool",
+		"form": 6,
+		"imageLink":"./images/arbeloa.jpeg"
+	},
+	{
+		"name": "Dani Carvajal",
+		"age": 23,
+		"nationality": "Spain",
+		"position": "Defender",
+		"actualPosition":"Right Back",
+		"pastClub": "-",
+		"form": 8,
+		"imageLink":"./images/carvajal.jpeg"
+	},
+	{
+		"name": "Raphael Varane",
+		"age": 21,
+		"nationality": "France",
+		"position": "Defender",
+		"actualPosition":"Center Back",
+		"pastClub": "Lens",
+		"form": 8,
+		"imageLink":"./images/varane.jpeg"
+	},
+	{
+		"name": "Pepe",
+		"age": 31,
+		"nationality": "Portugal",
+		"position": "Defender",
+		"actualPosition":"Center Back",
+		"pastClub": "Porto",
+		"form": 7,
+		"imageLink":"./images/pepe.jpeg"
+	},
+	{
+		"name": "Fabio Coentrao",
+		"age": 26,
+		"nationality": "Portugal",
+		"position": "Defender",
+		"actualPosition":"Left Back",
+		"pastClub": "Benfica",
+		"form": 6,
+		"imageLink":"./images/coentrao.jpeg"
+	},
+	{
+		"name": "Toni Kroos",
+		"age": 25,
+		"nationality": "Germany",
+		"position": "Midfielder",
+		"actualPosition":"Center Midfielder",
+		"pastClub": "Bayern Munich",
+		"form": 9,
+		"imageLink":"./images/kroos.jpeg"
+	},
+	{
+		"name": "Luka Modric",
+		"age": 29,
+		"nationality": "Croatia",
+		"position": "Midfielder",
+		"actualPosition":"Midfielder",
+		"pastClub": "Tottenham Hotspur",
+		"form": 9,
+		"imageLink":"./images/modric.jpeg"
+	},
+	{
+		"name": "Isco",
+		"age": 22,
+		"nationality": "Spain",
+		"position": "Midfielder",
+		"actualPosition":"Attacking Midfielder",
+		"pastClub": "Malaga",
+		"form": 9,
+		"imageLink":"./images/isco.jpeg"
+	},
+	{
+		"name": "Asier Illarramendi",
+		"age": 24,
+		"nationality": "Spain",
+		"position": "Midfielder",
+		"actualPosition":"Defensive Midfielder",
+		"pastClub": "Real Sociedad",
+		"form": 7,
+		"imageLink":"./images/illarramendi.jpeg"
+	},
+	{
+		"name": "Sami Khedira",
+		"age": 27,
+		"nationality": "Germany",
+		"position": "Midfielder",
+		"actualPosition":"Defensive Midfielder",
+		"pastClub": "VfB Stuttgart",
+		"form": 7,
+		"imageLink":"./images/khedira.jpeg"
+	},
+	{
+		"name": "Cristiano Ronaldo",
+		"age": 30,
+		"nationality": "Portugal",
+		"position": "Forward",
+		"actualPosition":"Right Winger, Left Winger",
+		"pastClub": "Manchester United",
+		"form": 8,
+		"imageLink":"./images/ronaldo.jpeg"
+	},
+	{
+		"name": "Karim Benzema",
+		"age": 27,
+		"nationality": "France",
+		"position": "Forward",
+		"actualPosition":"Striker",
+		"pastClub": "Lyon",
+		"form": 8,
+		"imageLink":"./images/benzema.jpeg"
+	},
+	{
+		"name": "Gareth Bale",
+		"age": 27,
+		"nationality": "Wales",
+		"position": "Forward",
+		"actualPosition":"Winger",
+		"pastClub": "Tottenham Hotspur",
+		"form": 7,
+		"imageLink":"./images/bale.jpeg"
+	},
+	{
+		"name": "Jese",
+		"age": 21,
+		"nationality": "Spain",
+		"position": "Forward",
+		"actualPosition":"Forward, Winger",
+		"pastClub": "-",
+		"form": 7,
+		"imageLink":"./images/jese.jpeg"
+	}
+]}

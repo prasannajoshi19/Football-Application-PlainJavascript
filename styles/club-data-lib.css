@@ -1,0 +1,145 @@
+.row {
+	float: left;
+	width: 100%;
+}
+.column {
+	float: left;
+}
+.box {
+	float: left;
+	margin: 10px 0 0 5%;
+	width: 90%;
+	border: 1px solid #c3c3c3 !important;
+	background-color: #fff;
+}
+.content {
+	float: left;
+	width: 100%;
+	margin-top:10px;
+	height: calc( 100% - 60px);
+	overflow-y: auto;
+	box-sizing: border-box;
+}
+.result_content {
+	height:40px;
+}
+.image_container {
+	padding:10px;
+	height: 105px;
+	width: 105px;
+	box-sizing: border-box;
+}
+.player_name, .form_text {
+	height: 30px;
+	line-height: 30px;
+	color: #122426;
+	font-size: 18px;
+}
+.form_text {
+	color: black;
+	font-size: 14px;
+}
+.form_value {
+	height:20px;
+}
+.player_bio {
+	padding-left: 5px;
+	width: 350px;
+	font-size: 13px;
+}
+.player_form {
+	padding-left: 5px;
+	width: 190px;
+	float: right;
+}
+.form_box {
+	float:left;
+	height: 14px;
+	width:14px;
+	margin-right: 3px;
+	background-color: #c3c3c3;
+}
+.filled_box {
+	background-color: #2C5257;
+}
+.player_info {
+	float: left;
+	width: 100%;
+	height: 18px;
+	line-height: 18px;
+}
+.plyer_desc {
+	float:left;
+	width:100px;
+}
+.page_container {
+	height:40px;
+	float:right;
+	box-sizing: border-box;
+	border-right: none;
+}
+.result_header {
+	padding-left:5px;
+	line-height: 40px;
+	width:110px;
+	font-weight: bold;
+	border-right: 1px solid #c3c3c3;
+}
+.page_box {
+	float:left;
+	height:100%;
+	width:40px;
+	border-right: 1px solid #c3c3c3;
+	line-height: 40px;
+	text-align: center;
+	cursor: pointer;
+}
+.prev_page, .next_page {
+	background-image: url(../images/next.png);
+	background-repeat: no-repeat;
+	background-position: 50%;
+	background-size: 50%;
+}
+.prev_page {
+	border-left: 1px solid #c3c3c3;
+	-ms-transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+.next_page {
+	border-right: none;
+}
+.result_container {
+	padding-left:20px;
+	line-height: 40px;
+	box-sizing: border-box;
+}
+.selected_box {
+	background-color: #E9EAED;
+}
+@media (max-width: 900px) {
+	.result_content {
+		height: 80px;
+	}
+	.result_header {
+		height:80px;
+		line-height: 80px;
+	}
+	.page_container {
+		border-top: 1px solid #c3c3c3 !important;
+	}
+	.result_container {
+		width:calc( 100% - 120px);
+		border-: 1px solid #c3c3c3 !important;
+		text-align: right;
+	}
+	.content {
+		height: calc( 100% - 200px);
+		overflow-y: auto; 
+	}
+}
+@media (max-width: 750px) {
+	.player_form {
+		float: left;
+	}
+}

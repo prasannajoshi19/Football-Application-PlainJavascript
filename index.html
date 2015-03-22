@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Football Club</title>
+        <link rel="icon" href="favicon.png" type="image/png" sizes="16x16">
+        <link rel="stylesheet" href="styles/jquery-ui-1.10.4.custom.css">
+        <link rel="stylesheet" href="styles/style.css">
+        <link rel="stylesheet" href="styles/club-data-lib.css">
+        <link rel="stylesheet" href="styles/multiple-select.css">
+    </head>
+    <body class="loading_class">
+        <div class="container" style="visibility:hidden;">
+            <div class="top_content">
+                <div class="menu_header">
+                    <div class="header_name">Real Madrid FC</div>
+                    <div class="header_content">Player&nbsp;Data</div>
+                </div>
+                <div class="filter_panel box">
+                    <div class="filter_column country_container">
+                        <div class="country_text">Country</div>
+                        <select class="country_list" multiple="multiple"></select>
+                    </div>
+                    <div class="filter_column position_container">
+                    <div class="position_text">Position</div>
+                        <select class="position_list" multiple="multiple"></select>
+                    </div>
+                    <div class="filter_column slider_container">
+                        <div class="slider_text">Age</div>
+                        <div class="slider_min"></div>
+                        <div class="age_slider"></div>
+                        <div class="slider_max"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="main_content"></div>
+        </div>
+        <script src="scripts/jquery.min.js"></script>
+        <script src="scripts/jquery-ui.min.js"></script>
+        <script src="scripts/jquery.multiple.select.js"></script>
+        <script src="scripts/club-data-lib.js"></script>
+        <script src="scripts/app.js"></script>
+    </body>
+</html>

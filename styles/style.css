@@ -1,0 +1,123 @@
+html, body {
+    margin: 0;
+    height:100%;
+    width:100%;
+    font-family: Verdana;
+    font-size:14px;
+    background-color: #E9EAED; /*#F6F6F6; /*#F6F6F5;*/
+    overflow-y:hidden;
+}
+.loading_class {
+	background: url(../images/loading.gif) no-repeat;
+	background-position: 50%;
+}
+button:focus, a:focus {
+	outline:0 !important;
+}
+.container {
+	height:100%;
+	width: 100%;
+}
+.top_content, .main_content {
+	float: left;
+	width: 100%;
+	box-sizing: border-box;
+}
+.main_content {
+	padding-bottom: 10px;
+	height: calc( 100% - 100px);
+}
+.filter_panel {
+	height:40px;
+}
+.filter_column {
+	float:left;
+}
+.menu_header {
+	width:100%;
+	height:50px;
+	line-height: 50px;
+	font-size: 18px;
+	background-color: #122426;
+	color: white;
+	border: 1px solid #c3c3c3 !important;
+	box-sizing: border-box;
+}
+.header_name {
+	float: left;
+	text-align: left;
+	margin-left: 10px;
+	background: url(../images/madrid.png) no-repeat;
+	background-position: 135px;
+	width:180px;
+}
+.header_content {
+	float: right;
+	text-align: right;
+	margin-right: 10px;
+	font-size: 16px;
+}
+.country_text, .position_text {
+	line-height: 40px;
+	float:left;
+	width:75px;
+	padding-left: 5px;
+}
+.country_list, .position_list {
+	float:left;
+}
+.slider_container {
+	padding-left: 10px;
+	box-sizing: border-box;
+}
+.slider_text {
+	float:left;
+	height: 40px;
+	width: 40px;
+	line-height: 40px;
+}
+.slider_min, .slider_max {
+	float:left;
+	height: 40px;
+	width: 30px;
+	line-height: 40px;
+	float: left;
+}
+.slider_max {
+	text-align: right;
+}
+.age_slider {
+	float: left;
+	width: 130px;
+	height: 6px;
+	margin-top: 16px;
+}
+.ui-slider-handle {
+	height:12px !important;
+	width:12px !important;
+	border-radius: 6px !important;
+	top: -4px !important;
+	background: #c3c3c3 !important;
+}
+.ui-state-focus {
+	background: #c3c3c3 !important;
+}
+@media (max-width: 900px) {
+	.filter_column {
+		width:100%;
+	}
+	.filter_panel {
+		clear:both;
+		width: 250px !important;
+		height:120px;
+	}
+	.age_slider {
+		width: 130px !important;
+	}
+	.country_container, .position_container {
+		border-bottom: 1px solid #c3c3c3 !important;
+	}
+	.ms-parent {
+		border-right: none !important;
+	}
+}
